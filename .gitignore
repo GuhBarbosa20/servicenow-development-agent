@@ -1,0 +1,39 @@
+# ServiceNow Agent - Git Ignore
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Personal files (não compartilhar)
+*.docx
+*.xlsx
+*.pdf
+*.mov
+*.jpeg
+*.jpg
+*.png
+*.webp
+*.zip
+*.csv
+*.json
+SoapUI*
+
+# Keep only agent files
+!refinements/*.md
+!examples/*.md
